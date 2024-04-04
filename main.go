@@ -9,12 +9,12 @@ import (
 	"log"
 
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
-	"github.com/hashicorp/terraform-provider-scaffolding-framework/internal/provider"
+	"github.com/jameswoolfenden/terraform-provider-scaffolding-framework/internal/provider"
 )
 
 // Run "go generate" to format example terraform files and generate the docs for the registry/website
 
-// If you do not have terraform installed, you can remove the formatting command, but its suggested to
+// If you do not have Terraform installed, you can remove the formatting command, but its suggested to
 // ensure the documentation is formatted properly.
 //go:generate terraform fmt -recursive ./examples/
 
